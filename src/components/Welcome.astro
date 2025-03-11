@@ -1,28 +1,33 @@
 ---
 import qalLogo from "../assets/lsb.svg";
+import barArcenciel from "../assets/Barcenciel.svg";
 ---
 
 <div id="container">
   <main>
     <section id="hero">
-      <img src={qalLogo.src} alt="logo queer as lot" />
+      <img src={qalLogo.src} alt="logo queer as lot" class="main-logo" />
       <h1>QUEER AS LOT</h1>
+      <img
+        src={barArcenciel.src}
+        alt="barre decorative arc-en-ciel"
+        id="barcenciel"
+      />
       <h2>SPORT & CULTURE</h2>
       <h3>Le site arrive bientôt!</h3>
       <section id="links"></section>
+      <a href="https://www.instagram.com/queer.as.lot/">instagram</a>
     </section>
   </main>
 </div>
 
 <style>
   #container {
-    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
-      Arial, sans-serif;
+    font-family: "Barlow", sans-serif;
     height: 100%;
   }
 
   main {
-    height: 100%;
     display: flex;
     justify-content: center;
   }
@@ -34,20 +39,34 @@ import qalLogo from "../assets/lsb.svg";
     justify-content: center;
   }
 
+  .main-logo {
+    height: 50%;
+  }
+
   h1 {
     font-family: "League Spartan Variable", sans-serif;
     font-weight: 700;
-    margin-top: 0.25em;
+    font-size: xxx-large;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-family: "Cooper Hewitt", sans-serif;
+    font-size: xx-large;
+  }
+
+  h3 {
+    font-family: "Barlow", sans-serif;
+  }
+
+  #barcenciel {
+    height: 1rem;
   }
 
   @media screen and (max-width: 768px) {
     #container {
       display: flex;
       flex-direction: column;
-    }
-
-    h1 {
-      line-height: 1.5;
     }
   }
 </style>
