@@ -40,7 +40,7 @@ import barArcenciel from "../assets/Barcenciel.svg";
   }
 
   .main-logo {
-    height: 50%;
+    height: 40%;
   }
 
   h1 {
@@ -63,10 +63,15 @@ import barArcenciel from "../assets/Barcenciel.svg";
     height: 1rem;
   }
 
-  @media screen and (max-width: 768px) {
-    #container {
-      display: flex;
-      flex-direction: column;
+  @media screen and (min-width: 600px) {
+    .main-logo {
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .main-logo {
+      margin-top: 5rem;
     }
   }
 </style>
