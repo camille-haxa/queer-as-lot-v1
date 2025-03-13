@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/league-spartan':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/barlow':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/cooper-hewitt':
+        specifier: ^5.2.5
+        version: 5.2.5
       astro:
         specifier: ^5.4.3
         version: 5.4.3(rollup@4.35.0)(typescript@5.8.2)
@@ -200,6 +209,15 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/league-spartan@5.2.5':
+    resolution: {integrity: sha512-tZ+/Dy+4wDsNdf9atm7IIpzgOGUKEcj2QnuGEElGer8JhcMcZX3wec9pr26XLLHCD1uHQhD4q34eIdAJSRV2hg==}
+
+  '@fontsource/barlow@5.2.5':
+    resolution: {integrity: sha512-p+2XXEM7v85kbn0Dh8g0YLMjTCDiRCAi9nHik6w/2owZ9CkT1yYGGgaUMshJRqykh7efv1gE0QxAkOhZHd8tEg==}
+
+  '@fontsource/cooper-hewitt@5.2.5':
+    resolution: {integrity: sha512-HV9TMfeZYpnUnT/vzyK4qmIPXLZuToCFPabH6HSqOha+pDubNEoywT/9L6Jmq7lAO2CNwhAgu5Dt/QZnC3dxSw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1494,6 +1512,12 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.1':
     optional: true
+
+  '@fontsource-variable/league-spartan@5.2.5': {}
+
+  '@fontsource/barlow@5.2.5': {}
+
+  '@fontsource/cooper-hewitt@5.2.5': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
