@@ -1,6 +1,8 @@
 ---
 import qalLogo from "../assets/lsb.svg";
 import barArcenciel from "../assets/Barcenciel.svg";
+import fbLogo from "../assets/icons/icons8-facebook.svg";
+import instaLogo from "../assets/icons/icons8-instagram.svg";
 ---
 
 <div id="container">
@@ -11,11 +13,13 @@ import barArcenciel from "../assets/Barcenciel.svg";
       <img src={barArcenciel.src} alt="" id="barcenciel" />
       <h2>SPORT & CULTURE</h2>
       <h3>Le site arrive bientôt!</h3>
-      <p>mail: queer.as.lot(at)protonmail.com</p>
+      <p><img src="" alt="" /> contact: queer.as.lot(at)protonmail.com</p>
       <section class="links">
-        <a href="https://www.instagram.com/queer.as.lot/">instagram</a>
+        <a href="https://www.instagram.com/queer.as.lot/">
+          <img src={instaLogo.src} alt="retrouvez nous sur instagram" /></a
+        >
         <a href="https://www.facebook.com/share/16Dc7jEuVe/?mibextid=wwXIfr"
-          >facebook</a
+          ><img src={fbLogo.src} alt="retrouvez nous sur facebook" /></a
         >
       </section>
     </section>
@@ -54,10 +58,6 @@ import barArcenciel from "../assets/Barcenciel.svg";
   h2 {
     font-family: "Cooper Hewitt", sans-serif;
     font-size: xx-large;
-  }
-
-  h3 {
-    font-family: "Barlow", sans-serif;
   }
 
   #barcenciel {
