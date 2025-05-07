@@ -2,6 +2,9 @@
 import "@fontsource-variable/league-spartan";
 import "@fontsource/cooper-hewitt";
 import "@fontsource/barlow";
+
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 // layout for complete website
 ---
 
@@ -13,6 +16,8 @@ import "@fontsource/barlow";
     <meta name="generator" content={Astro.generator} />
   </head>
   <body>
+    <Header />
     <slot />
+    <Footer />
   </body>
 </html>
