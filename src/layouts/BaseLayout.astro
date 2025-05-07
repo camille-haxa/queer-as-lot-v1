@@ -5,6 +5,7 @@ import "@fontsource/barlow";
 
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+const { pageTitle } = Astro.props;
 // layout for complete website
 ---
 
@@ -14,10 +15,15 @@ import Footer from "../components/Footer.astro";
     <link rel="icon" type="image/svg" href="/favicon1.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
   </head>
   <body>
     <Header />
+    <h1>{pageTitle}</h1>
     <slot />
     <Footer />
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>
