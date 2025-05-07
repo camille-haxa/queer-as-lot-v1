@@ -1,0 +1,52 @@
+/* nav styles */
+
+.hamburger {
+  padding-right: 1.25rem;
+  cursor: pointer;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.hamburger .line {
+  display: block;
+  width: 2.5rem;
+  height: 0.3rem;
+  margin-bottom: 0.5rem;
+  background-color: #c692f1;
+}
+
+.nav-links {
+  width: 100%;
+  top: 5rem;
+  left: 3rem;
+  background-color: #c692f1;
+  display: none;
+  margin: 0;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #c692f1;
+}
+
+.expanded {
+  display: unset;
+}
