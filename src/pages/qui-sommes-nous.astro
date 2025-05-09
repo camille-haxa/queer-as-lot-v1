@@ -3,21 +3,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import qalFullLogo from "../assets/logos/logo-complet-noir-small.png";
 import photoUne from "../assets/photos/qal02.png";
 import photoGayzac from "../assets/photos/gayzac.png";
+import photoPont from "../assets/photos/qal05.png";
 const pageTitle = "Qui sommes nous ?";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h1>{pageTitle}</h1>
-  <table aria-hidden="true">
-    <tr>
-      <td class="color1"></td>
-      <td class="color2"></td>
-      <td class="color3"></td>
-      <td class="color4"></td>
-      <td class="color5"></td>
-      <td class="color6"></td>
-    </tr>
-  </table>
   <p>
     Queer as Lot est une association loi 1901, qui a vu le jour en septembre
     2024. La volonté de l'association de développer des événements sportifs et
@@ -113,4 +103,5 @@ const pageTitle = "Qui sommes nous ?";
       </li>
     </ul>
   </p>
+  <img src={photoPont.src} alt="" />
 </BaseLayout>
