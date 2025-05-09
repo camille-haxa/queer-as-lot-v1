@@ -12,6 +12,7 @@
     "@fontsource-variable/league-spartan": "^5.2.5",
     "@fontsource/barlow": "^5.2.5",
     "@fontsource/cooper-hewitt": "^5.2.5",
+    "@lucide/astro": "^0.509.0",
     "astro": "^5.4.3"
   }
 }

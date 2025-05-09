@@ -5,6 +5,8 @@ import photoUne from "../assets/photos/qal02.png";
 import photoGayzac from "../assets/photos/gayzac.png";
 import photoPont from "../assets/photos/qal05.png";
 const pageTitle = "Qui sommes nous ?";
+
+import { Flower2, Rainbow, MessageCircleHeart } from "@lucide/astro";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -85,23 +87,29 @@ const pageTitle = "Qui sommes nous ?";
     </ul>
   </p>
   <h3>La vision de Queer as Lot</h3>
-  <p>
-    La vision de l’association repose sur l’idée de:
-    <ul>
-      <li>
-        Créer des espaces LGBTQIA+ en milieu rural, tout en ouvrant ces espaces
-        à tou.te.s les habitant.e.s du territoire, sans distinction.
-      </li>
-      <li>
-        Fédérer à travers l’organisation de diverses manifestations et permettre
-        de ramener les existences LGBTQIA+ dans le quotidien de nos campagnes.
-      </li>
-      <li>
-        Oeuvrer à la création et au renforcement de réseau, en facilitant la
-        rencontre et le dialogue entre les communautés LGBTQIA+, notamment dans
-        les territoires ruraux.
-      </li>
-    </ul>
-  </p>
+  <p>La vision de l’association repose sur l’idée de:</p>
+  <div class="vision">
+    <Flower2 />
+    <p>
+      Créer des espaces LGBTQIA+ en milieu rural, tout en ouvrant ces espaces à
+      tou.te.s les habitant.e.s du territoire, sans distinction.
+    </p>
+  </div>
+  <div class="vision">
+    <Rainbow />
+    <p>
+      Fédérer à travers l’organisation de diverses manifestations et permettre
+      de ramener les existences LGBTQIA+ dans le quotidien de nos campagnes.
+    </p>
+  </div>
+  <div class="vision">
+    <MessageCircleHeart />
+    <p>
+      Oeuvrer à la création et au renforcement de réseau, en facilitant la
+      rencontre et le dialogue entre les communautés LGBTQIA+, notamment dans
+      les territoires ruraux.
+    </p>
+  </div>
+
   <img src={photoPont.src} alt="" />
 </BaseLayout>

@@ -1,3 +1,10 @@
+/* qui sommes nous */
+
+.vision {
+  display: flex;
+  align-items: center;
+}
+
 /* rainbow bar styling */
 table {
   border-collapse: collapse;
