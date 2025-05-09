@@ -1,3 +1,31 @@
+/* rainbow bar styling */
+table {
+  border-collapse: collapse;
+}
+td {
+  width: 2rem;
+  height: 0.5rem;
+  padding: 0px;
+}
+.color1 {
+  background-color: #e73a2b;
+}
+.color2 {
+  background-color: #e98023;
+}
+.color3 {
+  background-color: #ecaf30;
+}
+.color4 {
+  background-color: #029d5a;
+}
+.color5 {
+  background-color: #1e6195;
+}
+.color6 {
+  background-color: #6c3787;
+}
+
 /* nav styles */
 
 .hamburger {
