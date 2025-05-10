@@ -1,3 +1,30 @@
+/* global */
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+h1 {
+  font-family: "League Spartan Variable", sans-serif;
+  font-weight: 700;
+  font-size: xxx-large;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-size: xx-large;
+}
+
+/* accueil */
+
+#hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* qui sommes nous */
 
 .vision {
@@ -53,17 +80,18 @@ td {
 
 .hamburger .line {
   display: block;
-  width: 2.5rem;
-  height: 0.3rem;
+  width: 3rem;
+  height: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: #c692f1;
+  background-color: #121212;
+  border-radius: 5px;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 3rem;
-  background-color: #c692f1;
+  background-color: #121212;
   display: none;
   margin: 0;
 }
