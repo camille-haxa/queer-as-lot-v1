@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.vision-icon {
+  width: 5rem;
+  margin: 1rem;
+}
+
 /* rainbow bar styling */
 table {
   border-collapse: collapse;
