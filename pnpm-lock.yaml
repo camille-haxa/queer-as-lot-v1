@@ -17,9 +17,6 @@ importers:
       '@fontsource/cooper-hewitt':
         specifier: ^5.2.5
         version: 5.2.5
-      '@lucide/astro':
-        specifier: ^0.509.0
-        version: 0.509.0(astro@5.4.3(rollup@4.35.0)(typescript@5.8.2))
       astro:
         specifier: ^5.4.3
         version: 5.4.3(rollup@4.35.0)(typescript@5.8.2)
@@ -329,11 +326,6 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
-
-  '@lucide/astro@0.509.0':
-    resolution: {integrity: sha512-/tdFAfrbTXjG7RgGtHWjYaZElesKx/w2n301nwqNp0t9ZMk0PjHvCsireXopKLnuRvknYDbLT82iCPup9shiUg==}
-    peerDependencies:
-      astro: ^4 || ^5
 
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
@@ -1603,10 +1595,6 @@ snapshots:
     optional: true
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
-
-  '@lucide/astro@0.509.0(astro@5.4.3(rollup@4.35.0)(typescript@5.8.2))':
-    dependencies:
-      astro: 5.4.3(rollup@4.35.0)(typescript@5.8.2)
 
   '@oslojs/encoding@1.1.0': {}
 
