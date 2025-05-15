@@ -21,18 +21,20 @@ const { pageTitle } = Astro.props;
   </head>
   <body>
     <Header />
-    <img src={logoB.src} alt="" />
-    <h1>{pageTitle}</h1>
-    <table aria-hidden="true">
-      <tr>
-        <td class="color1"></td>
-        <td class="color2"></td>
-        <td class="color3"></td>
-        <td class="color4"></td>
-        <td class="color5"></td>
-        <td class="color6"></td>
-      </tr>
-    </table>
+    <div id="pages-layout">
+      <img src={logoB.src} alt="" />
+      <h1>{pageTitle}</h1>
+      <table aria-hidden="true" id="pages-decoration">
+        <tr>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color3"></td>
+          <td class="color4"></td>
+          <td class="color5"></td>
+          <td class="color6"></td>
+        </tr>
+      </table>
+    </div>
     <slot />
     <Footer />
     <script>

@@ -8,13 +8,28 @@
 h1 {
   font-family: "League Spartan Variable", sans-serif;
   font-weight: 700;
-  font-size: xxx-large;
+  font-size: 2.5em;
   margin-bottom: 0.5rem;
+  margin-top: 1em;
 }
 
 h2 {
   font-family: "Cooper Hewitt", sans-serif;
   font-size: xx-large;
+}
+
+/* Baselayout for all pages except index */
+
+#pages-layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#pages-decoration {
+  margin-bottom: 2rem;
 }
 
 /* accueil */
