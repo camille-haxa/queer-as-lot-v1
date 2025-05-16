@@ -27,6 +27,16 @@ h2 {
   font-size: xx-large;
 }
 
+h3 {
+  font-family: "League Spartan Variable", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+img {
+  margin-top: 1rem;
+}
+
 /* Baselayout */
 
 #pages-layout {
@@ -78,14 +88,45 @@ main {
 
 /* nous soutenir */
 
+.linkto-contact {
+  color: #121212;
+}
+
 #adhesion-link {
-  padding: 1em;
+  padding: 1.5em;
   text-decoration: none;
   background-color: #121212;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #f9f9f9;
+  font-weight: 700;
+  font-family: "League Spartan Variable", sans-serif;
+}
 
-  font-weight: bold;
+.link-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* contact */
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-links {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 700;
+  font-family: "League Spartan Variable", sans-serif;
+}
+
+.contact-links:first-of-type {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /* rainbow bar styling */
