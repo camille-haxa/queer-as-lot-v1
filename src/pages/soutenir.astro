@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Nous soutenir";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <main>
+    <div>
+      <p>
+        Tu souhaites soutenir Queer as Lot ?! C’est possible de plein de
+        manières différentes ! Tu peux adhérer, devenir bénévole ou encore juste
+        parler de l’asso autour de toi !
+      </p>
+
+      <h3>Adhésion</h3>
+      <p>
+        Nous proposons plusieurs tarifs pour adhérer à l'association, l'adhésion
+        est annuelle (septembre à septembre), rendez-vous sur helloasso
+      </p>
+    </div>
+    <div class="link-button">
+      <a
+        href="https://www.helloasso.com/associations/queer-as-lot"
+        id="adhesion-link">Adhérez à l'association</a
+      >
+    </div>
+    <div>
+      <h3>Bénévolat</h3>
+
+      <p>
+        C'est possible de devenir bénévole, lors des événements, pour créer des
+        projets, suivant tes envies... Si tu as quelconque questions ou envies,
+        on est disponible. N’hésite pas à nous contacter, toutes nos coordonnées
+        sont sur la <a href="/contact" class="linkto-contact"> page contact</a>
+      </p>
+    </div>
+  </main>
+</BaseLayout>

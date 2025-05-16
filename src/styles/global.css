@@ -1,0 +1,243 @@
+/* global */
+
+* {
+  font-family: "Barlow", sans-serif;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.3;
+}
+
+h1 {
+  font-family: "League Spartan Variable", sans-serif;
+  font-weight: 700;
+  font-size: 2.3em;
+  margin-bottom: 0.5rem;
+  margin-top: 1em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-size: xx-large;
+}
+
+h3 {
+  font-family: "L center;eague Spartan Variable", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+img {
+  margin-top: 1rem;
+}
+
+/* Baselayout */
+
+#pages-layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#pages-decoration {
+  margin-bottom: 2rem;
+}
+
+/* styling for all pages */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-illustration {
+  border-radius: 5px;
+}
+
+/* accueil */
+
+#hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+/* qui sommes nous */
+
+.vision {
+  display: flex;
+  align-items: center;
+}
+
+.vision-icon {
+  width: 5rem;
+  margin: 1rem;
+}
+
+/* nos actions */
+
+#small-list-actions {
+  margin-right: auto;
+}
+
+/* nous soutenir */
+
+.linkto-contact {
+  color: #121212;
+}
+
+#adhesion-link {
+  padding: 1.5em;
+  text-decoration: none;
+  background-color: #121212;
+  border-radius: 10px;
+  color: #f9f9f9;
+  font-weight: 700;
+  font-family: "League Spartan Variable", sans-serif;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* contact */
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-links {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 700;
+  font-family: "League Spartan Variable", sans-serif;
+}
+
+.contact-links:first-of-type {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* mentions legales */
+
+.legal-p {
+  margin-right: auto;
+}
+
+/* rainbow bar styling */
+table {
+  border-collapse: collapse;
+}
+td {
+  width: 2rem;
+  height: 0.5rem;
+  padding: 0px;
+}
+.color1 {
+  background-color: #e73a2b;
+}
+.color2 {
+  background-color: #e98023;
+}
+.color3 {
+  background-color: #ecaf30;
+}
+.color4 {
+  background-color: #029d5a;
+}
+.color5 {
+  background-color: #1e6195;
+}
+.color6 {
+  background-color: #6c3787;
+}
+
+/* nav styles */
+
+.hamburger {
+  padding-right: 1.25rem;
+  cursor: pointer;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.hamburger .line {
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #121212;
+  border-radius: 5px;
+}
+
+.nav-links {
+  width: 100%;
+  top: 5rem;
+  left: 3rem;
+  background-color: #121212;
+  display: none;
+  margin: 0;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #121212;
+  color: #121212;
+}
+
+.expanded {
+  display: unset;
+}
+
+/* footer */
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.footer-links a {
+  color: #121212;
+  font-weight: bold;
+  padding: 0.1em;
+  text-decoration: none;
+}

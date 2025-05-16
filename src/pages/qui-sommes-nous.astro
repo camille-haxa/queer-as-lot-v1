@@ -1,0 +1,186 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import qalFullLogo from "../assets/logos/logo-complet-noir-small.png";
+import photoUne from "../assets/photos/qal02.png";
+import photoGayzac from "../assets/photos/gayzac.png";
+import photoPont from "../assets/photos/qal05.png";
+const pageTitle = "Qui sommes nous ?";
+const props = Astro.props;
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <main>
+    <div>
+      <p>
+        Queer as Lot est une association loi 1901, qui a vu le jour en septembre
+        2024. La volonté de l'association de développer des événements sportifs
+        et culturels aux couleurs LGBTQIA+, ouvert à tou·te·s.
+      </p>
+    </div>
+    <img src={qalFullLogo.src} alt=" " />
+    <div>
+      <h3>un peu d'histoire...</h3>
+      <p>
+        Queer as Lot a été fondée en 2021 à l'initiative d'un collectif de
+        personnes queer issues des campagnes du Lot. Ce collectif a vu le jour
+        pour combler un manque d'associations et d'espaces dédiés aux personnes
+        LGBTQIA+ dans le Lot, plus précisément aux alentours de Figeac. Le
+        projet a donc débuté par cette rencontre, entre quelques personnes,
+        partageant la volonté d'organiser une soirée festive et permettre à des
+        personnes LGBTQIA+ de se retrouver dans un environnement sûr et
+        convivial.
+      </p>
+    </div>
+    <img
+      src={photoUne.src}
+      alt="un groupe de personnes queer de dos qui marche dans une rue d'un village typique du Lot"
+      class="img-illustration"
+    />
+    <div>
+      <p>
+        En 2022, le projet prend forme avec l'organisation de cette première
+        soirée dans la salle des fête de la commune de Reyrevignes, qui a permis
+        des rencontres inattendues et chouettes. Après cet événement, le
+        collectif est resté en sommeil jusqu'au début de 2024. Queer as Lot
+        repris doucement vie avec la proposition de RDV randonnées, puis il y a
+        eu la co-organisation d’un événement festif ‘Gayzac’, avec le Jardin des
+        Passages situé à Quézac dans le Cantal. Ces rencontres ont reboosté
+        l’envie de créer des espaces de convivialité et d’activités pour les
+        personnes LGBTQIA+ en milieu rural. Le collectif a donc décidé de se
+        réorganiser et de se structurer sous la forme d'une association afin de
+        faciliter l'accès à des ressources matérielles, financières et humaines.
+      </p>
+      <p>
+        Ainsi, en septembre 2024, l’association Queer as Lot a vu le jour
+        officiellement, avec la volonté de proposer des événements et des
+        activités sportives et culturelles, pour créer des moments de partage et
+        de convivialité.
+      </p>
+    </div>
+    <img
+      src={photoGayzac.src}
+      alt="affiche dessinée rose c'est la fête à Gayzac le plus queer des villages"
+      class="img-illustration"
+    />
+    <div>
+      <h3>Les valeurs de l'association</h3>
+      <p>
+        Queer as Lot a pour but de transmettre et favoriser:
+        <ul>
+          <li>
+            Le <b>respect</b>, à travers la reconnaissance de la dignité de
+            chaque personne et l’acceptation de la différence entre les humains.
+            Mais également le respect des environnements dans lesquels
+            l’association évolue (locaux prêté, le matériel, la forêt, etc.)
+          </li>
+          <li>
+            La <b>convivialité</b>, l’association s’engage à favoriser
+            l’ouverture et l’échange réciproque des personnes et des groupes qui
+            la composent. En permettant des accueils dans un environnement
+            chaleureux et attentifs.
+          </li>
+          <li>
+            La <b>solidarité</b>, l’association unis des personnes dans un but
+            d’empathie, d’écoute et d’engagement.
+          </li>
+          <li>
+            L’ <b>inclusion</b>, l’association souhaite œuvrer à un
+            environnement propice pour toutes les personnes minorisées et
+            isolées, en s’adaptant au besoin et en mettant en place des espaces
+            le plus accessible et bienveillant possible en ruralité.
+          </li>
+          <li>
+            La <b>coopération</b>, l'association souhaite participer à une œuvre
+            commune en favorisant la collaboration, le partage, le travail
+            ensemble et l’entraide.
+          </li>
+        </ul>
+      </p>
+    </div>
+    <div>
+      <h3>La vision de Queer as Lot</h3>
+      <p>La vision de l’association repose sur l’idée de:</p>
+      <div class="vision">
+        <svg
+          class="vision-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="2em"
+          height="2em"
+          viewBox="0 0 24 24"
+          {...props}
+          ><!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE -->
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            ><path
+              d="M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1"
+            ></path><circle cx="12" cy="8" r="2"></circle><path
+              d="M12 10v12m0 0c4.2 0 7-1.667 7-5c-4.2 0-7 1.667-7 5m0 0c-4.2 0-7-1.667-7-5c4.2 0 7 1.667 7 5"
+            ></path></g
+          ></svg
+        >
+        <p>
+          Créer des espaces LGBTQIA+ en milieu rural, tout en ouvrant ces
+          espaces à tou.te.s les habitant.e.s du territoire, sans distinction.
+        </p>
+      </div>
+      <div class="vision">
+        <svg
+          class="vision-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="2em"
+          height="2em"
+          viewBox="0 0 24 24"
+          {...props}
+          ><!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE -->
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            ><path d="M22 17a10 10 0 0 0-20 0"></path><path
+              d="M6 17a6 6 0 0 1 12 0"></path><path d="M10 17a2 2 0 0 1 4 0"
+            ></path></g
+          ></svg
+        >
+
+        <p>
+          Fédérer à travers l’organisation de diverses manifestations et
+          permettre de ramener les existences LGBTQIA+ dans le quotidien de nos
+          campagnes.
+        </p>
+      </div>
+      <div class="vision">
+        <svg
+          class="vision-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="2em"
+          height="2em"
+          viewBox="0 0 24 24"
+          {...props}
+          ><!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE -->
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            ><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path><path
+              d="M15.8 9.2a2.5 2.5 0 0 0-3.5 0l-.3.4l-.35-.3a2.42 2.42 0 1 0-3.2 3.6l3.6 3.5l3.6-3.5c1.2-1.2 1.1-2.7.2-3.7"
+            ></path></g
+          ></svg
+        >
+        <p>
+          Oeuvrer à la création et au renforcement de réseau, en facilitant la
+          rencontre et le dialogue entre les communautés LGBTQIA+, notamment
+          dans les territoires ruraux.
+        </p>
+      </div>
+    </div>
+    <img src={photoPont.src} alt="" class="img-illustration" />
+  </main>
+</BaseLayout>

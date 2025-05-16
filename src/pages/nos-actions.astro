@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import photoFood from "../assets/photos/qal03.png";
+import photoLac from "../assets/photos/qal04.png";
+const pageTitle = "Nos actions";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <main>
+    <div id="small-list-actions">
+      <h3>Pour les adhérent.es</h3>
+      <p>
+        <ul>
+          <li>Des activités sportives régulières</li>
+          <li>Des événement festifs</li>
+          <li>Des sorties culturelles</li>
+          <li>Des rendez-vous thématiques</li>
+          <li>Un accès au discord de l'association</li>
+        </ul>
+      </p>
+    </div>
+    <img src={photoFood.src} alt="" class="img-illustration" />
+    <div>
+      <h3>Pour des structures qui souhaitent nous convier</h3>
+      <p>
+        <ul>
+          <li>
+            Des stands de ventes d’objets artisanaux fabriquer par les bénévoles
+            et les proches de Queer as Lot, en vue de collecter des fonds pour
+            l’association.
+          </li>
+          <li>
+            Des stand d’info et ressources sur l’activité de l’asso et sur les
+            thématiques LGBTQIA+
+          </li>
+          <li>
+            Des stands avec des animations sportives et/ou créatives. Tel que :
+            Le famous concours de la pétanque, Fabriques ton badge, etc.
+          </li>
+          <li>
+            Des ateliers animés de réflexion autour des thématiques LGBTQIA+
+          </li>
+        </ul>
+      </p>
+    </div>
+    <div>
+      <h3>Les missions de l'association</h3>
+      <p>
+        Nos missions sont de créer des espaces divers de rencontre LGBTQIA+ en
+        proposant des événements et des activités, sportifs et culturels
+        principalement situés sur le territoire du Grand Figeac.
+      </p>
+      <p>
+        Nous pouvons également répondre à des sollicitations d'animation de
+        prévention ou de pédagogie sur les thématiques LGBTQIA+ et des appels à
+        solidarité.
+      </p>
+      <p>
+        L'association envisage également des partenariats avec d'autres
+        structures voisines pour étendre ses actions. Toute proposition de
+        partenariat est la bienvenue.
+      </p>
+    </div>
+    <img src={photoLac.src} alt="" class="img-illustration" />
+    <div>
+      <h3>Public cible et accessibilité</h3>
+      <p>
+        Le public cible de Queer as Lot sont les personnes LGBTQIA+ et/ou en
+        questionnement, vivant en ruralité mais l’association reste ouverte et
+        accessible au tout public.
+      </p>
+      <p>
+        L’association s’engage à réfléchir et mettre en place des propositions
+        accessibles au plus grand nombre, en prenant en compte la réalité
+        environnementale et financière de l’association.
+      </p>
+      <p>
+        Nous sommes à l’écoute des suggestions et propositions pour offrir un
+        maximum d’espace accessible physiquement, psychiquement et
+        sensoriellement, pour tou.te.s.
+      </p>
+    </div>
+  </main>
+</BaseLayout>
