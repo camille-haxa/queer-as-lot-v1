@@ -20,6 +20,7 @@ h1 {
   font-size: 2.3em;
   margin-bottom: 0.5rem;
   margin-top: 1em;
+  text-align: center;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
 }
 
 h3 {
-  font-family: "League Spartan Variable", sans-serif;
+  font-family: "L center;eague Spartan Variable", sans-serif;
   font-weight: 700;
   margin-top: 3rem;
 }
@@ -86,6 +87,12 @@ main {
   margin: 1rem;
 }
 
+/* nos actions */
+
+#small-list-actions {
+  margin-right: auto;
+}
+
 /* nous soutenir */
 
 .linkto-contact {
@@ -127,6 +134,12 @@ main {
 .contact-links:first-of-type {
   margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+/* mentions legales */
+
+.legal-p {
+  margin-right: auto;
 }
 
 /* rainbow bar styling */
