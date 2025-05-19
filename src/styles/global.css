@@ -1,8 +1,15 @@
+/* variables */
+
+:root {
+  --custom-white: #f9f9f9;
+  --custom-black: #121212;
+}
+
 /* global */
 
 * {
   font-family: "Barlow", sans-serif;
-  background-color: #f9f9f9;
+  background-color: var(--custom-white);
   box-sizing: border-box;
 }
 
@@ -96,15 +103,15 @@ main {
 /* nous soutenir */
 
 .linkto-contact {
-  color: #121212;
+  color: var(--custom-black);
 }
 
 #adhesion-link {
   padding: 1.5em;
   text-decoration: none;
-  background-color: #121212;
+  background-color: var(--custom-black);
   border-radius: 10px;
-  color: #f9f9f9;
+  color: var(--custom-white);
   font-weight: 700;
   font-family: "League Spartan Variable", sans-serif;
 }
@@ -126,7 +133,7 @@ main {
 }
 .contact-links {
   text-decoration: none;
-  color: #121212;
+  color: var(--custom-black);
   font-weight: 700;
   font-family: "League Spartan Variable", sans-serif;
 }
@@ -188,7 +195,7 @@ td {
   width: 3rem;
   height: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: #121212;
+  background-color: var(--custom-black);
   border-radius: 5px;
 }
 
@@ -196,7 +203,7 @@ td {
   width: 100%;
   top: 5rem;
   left: 3rem;
-  background-color: #121212;
+  background-color: var(--custom-black);
   display: none;
   margin: 0;
 }
@@ -219,8 +226,8 @@ td {
 .nav-links a:focus {
   border-style: solid;
   border-radius: 5px;
-  border-color: #121212;
-  color: #121212;
+  border-color: var(--custom-black);
+  color: var(--custom-black);
 }
 
 .expanded {
@@ -236,7 +243,7 @@ td {
 }
 
 .footer-links a {
-  color: #121212;
+  color: var(--custom-black);
   font-weight: bold;
   padding: 0.1em;
   text-decoration: none;
