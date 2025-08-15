@@ -248,3 +248,19 @@ td {
   padding: 0.1em;
   text-decoration: none;
 }
+
+/* media queries 
+
+@media screen and (min-width: 950px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-links {
+    display: inherit;
+  }
+  .nav-links ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+*/
