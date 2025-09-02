@@ -249,7 +249,7 @@ td {
   text-decoration: none;
 }
 
-/* media queries 
+/* media queries */
 
 @media screen and (min-width: 950px) {
   .hamburger {
@@ -263,4 +263,3 @@ td {
     justify-content: space-between;
   }
 }
-*/
