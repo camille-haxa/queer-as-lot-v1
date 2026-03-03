@@ -177,6 +177,28 @@ td {
   background-color: #6c3787;
 }
 
+/* theme toggle styles */
+
+#themeToggle {
+  max-width: fit-content;
+  max-height: fit-content;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+#themeToggle span {
+  min-height: fit-content;
+  min-width: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* nav styles */
 
 .hamburger {
@@ -223,7 +245,9 @@ td {
 }
 
 .nav-links a:hover,
-.nav-links a:focus {
+.nav-links a:focus
+#themeToggle:hover,
+#themeToggle:focus {
   border-style: solid;
   border-radius: 5px;
   border-color: var(--custom-black);
@@ -276,12 +300,19 @@ td {
 .dark h2,
 .dark h3,
 .dark p,
-.dark a {
+.dark a,
+.dark span {
   color: var(--custom-white);
 }
 
-.nav-links a:hover,
-.nav-links a:focus {
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
   border-color: var(--custom-white);
   color: var(--custom-white);
 }
+
+.sun { fill: black; }
+.moon { fill: transparent; }
+
+:global(.dark) .sun { fill: transparent; }
+:global(.dark) .moon { fill: white; }
