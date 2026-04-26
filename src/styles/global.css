@@ -3,8 +3,8 @@
 :root {
   --custom-white: #f9f9f9;
   --custom-black: #121212;
-  --qalLogoBlack: "../assets/logos/logo-noir-300.png";
-  --qalLogoWhite: "../assets/logos/logo-blanc-300.png";
+  --qalLogoAlt: "dessin blanc sur fond noir de gallinacée à crête qui sort d'un oeuf boule à facette";
+  --qalLogoFullAlt: "dessin blanc sur fond noir de gallinacée à crête qui sort d'un oeuf boule à facette intitulé 'Queer as Lot - Sport et culture'";
 }
 
 /* global */
@@ -72,6 +72,20 @@ main {
 
 .img-illustration {
   border-radius: 5px;
+}
+
+/* logo */
+
+.logo_300 {
+  content: url("../assets/logos/logo-noir-300.png") / var(--qalLogoAlt);
+}
+
+.logo_200 {
+  content: url("../assets/logos/logo-noir-200.png") / var(--qalLogoAlt);
+}
+
+.full-logo {
+  content: url("../assets/logos/logo-complet-noir-small.png") / var(--qalLogoFullAlt);
 }
 
 /* accueil */
@@ -322,15 +336,15 @@ nav #themeToggle:hover {
 }
 
 .dark .logo_300 {
-  content: url("../assets/logos/logo-blanc-300.png");
+  content: url("../assets/logos/logo-blanc-300.png") / var(--qalLogoAlt);
 }
 
 .dark .logo_200 {
-  content: url("../assets/logos/logo-blanc-200.png");
+  content: url("../assets/logos/logo-blanc-200.png") / var(--qalLogoAlt);
 }
 
 .dark .full-logo {
-  content: url("../assets/logos/logo-complet-blanc-small.png");
+  content: url("../assets/logos/logo-complet-blanc-small.png") / var(--qalLogoFullAlt);
 }
 
 .sun {
