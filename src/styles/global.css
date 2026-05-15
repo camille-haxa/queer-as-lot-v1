@@ -3,6 +3,8 @@
 :root {
   --custom-white: #f9f9f9;
   --custom-black: #121212;
+  --qalLogoAlt: "dessin blanc sur fond noir de gallinacée à crête qui sort d'un oeuf boule à facette";
+  --qalLogoFullAlt: "dessin blanc sur fond noir de gallinacée à crête qui sort d'un oeuf boule à facette intitulé 'Queer as Lot - Sport et culture'";
 }
 
 /* global */
@@ -70,6 +72,20 @@ main {
 
 .img-illustration {
   border-radius: 5px;
+}
+
+/* logo */
+
+.logo_300 {
+  content: url("../assets/logos/logo-noir-300.png") / var(--qalLogoAlt);
+}
+
+.logo_200 {
+  content: url("../assets/logos/logo-noir-200.png") / var(--qalLogoAlt);
+}
+
+.full-logo {
+  content: url("../assets/logos/logo-complet-noir-small.png") / var(--qalLogoFullAlt);
 }
 
 /* accueil */
@@ -158,28 +174,53 @@ td {
   height: 0.5rem;
   padding: 0px;
 }
-.color1 {
+#pages-decoration .color1 {
   background-color: #e73a2b;
 }
-.color2 {
+#pages-decoration .color2 {
   background-color: #e98023;
 }
-.color3 {
+#pages-decoration .color3 {
   background-color: #ecaf30;
 }
-.color4 {
+#pages-decoration .color4 {
   background-color: #029d5a;
 }
-.color5 {
+#pages-decoration .color5 {
   background-color: #1e6195;
 }
-.color6 {
+#pages-decoration .color6 {
   background-color: #6c3787;
+}
+
+/* theme toggle styles */
+
+#themeToggle {
+  max-width: fit-content;
+  max-height: fit-content;
+  border: 3px;
+  border-style: solid;
+  border-color: transparent;
+  background: none;
+  padding: 0.3rem;
+  margin: 0 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+#themeToggle span {
+  min-height: fit-content;
+  min-width: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 /* nav styles */
 
 .hamburger {
+  margin-top: 1rem;
   padding-right: 1.25rem;
   cursor: pointer;
   background-color: Transparent;
@@ -223,7 +264,9 @@ td {
 }
 
 .nav-links a:hover,
-.nav-links a:focus {
+.nav-links a:focus
+nav #themeToggle:hover,
+nav #themeToggle:hover {
   border-style: solid;
   border-radius: 5px;
   border-color: var(--custom-black);
@@ -262,4 +305,68 @@ td {
     display: flex;
     justify-content: space-between;
   }
+}
+
+/* dark theme */
+
+*.dark,
+.dark * {
+  background-color: var(--custom-black);
+}
+
+.dark li,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark a,
+.dark span {
+  color: var(--custom-white);
+}
+
+.dark .hamburger .line {
+  background-color: var(--custom-white);
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus,
+.dark nav #themeToggle:hover {
+  border-color: var(--custom-white);
+  color: var(--custom-white);
+}
+
+.dark .logo_300 {
+  content: url("../assets/logos/logo-blanc-300.png") / var(--qalLogoAlt);
+}
+
+.dark .logo_200 {
+  content: url("../assets/logos/logo-blanc-200.png") / var(--qalLogoAlt);
+}
+
+.dark .full-logo {
+  content: url("../assets/logos/logo-complet-blanc-small.png") / var(--qalLogoFullAlt);
+}
+
+.sun {
+  fill: transparent;
+}
+.moon {
+  fill: black;
+}
+
+.dark .sun {
+  fill: white;
+}
+.dark .moon {
+  fill: transparent;
+}
+
+.light-btn-text {
+  display: none;
+}
+.dark .dark-btn-text {
+  display: none;
+}
+.dark .light-btn-text {
+  display: block;
 }

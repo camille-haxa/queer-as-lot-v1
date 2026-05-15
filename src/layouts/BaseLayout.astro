@@ -6,7 +6,6 @@ import "@fontsource/barlow";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
-import logoB from "../assets/logos/logo-noir-200.png";
 const { pageTitle } = Astro.props;
 // layout for complete website
 ---
@@ -22,7 +21,7 @@ const { pageTitle } = Astro.props;
   <body>
     <Header />
     <div id="pages-layout">
-      <img src={logoB.src} alt="" />
+      <img class="logo_200" />
       <h1>{pageTitle}</h1>
       <table aria-hidden="true" id="pages-decoration">
         <tr>

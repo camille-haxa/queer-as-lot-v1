@@ -1,16 +1,12 @@
 ---
 import IndexLayout from "../layouts/IndexLayout.astro";
-import qalLogoBlack from "../assets/logos/logo-noir-300.png";
 const pageTitle = "Queer as Lot";
 ---
 
 <IndexLayout pageTitle={pageTitle}>
   <main>
     <div id="hero">
-      <img
-        src={qalLogoBlack.src}
-        alt="dessin blanc sur fond noir de gallinacée à crête qui sort d'un oeuf boule à facette"
-      />
+      <img class="logo_300" />
       <h1>{pageTitle}</h1>
       <table aria-hidden="true">
         <tr>
